@@ -111,9 +111,7 @@ var SumWithArrow = (x = 5, y = 10) => { return x + y; }
 
 console.log(`sum function with arrow function ${SumWithArrow(10, 20)}`);
 
-
 //arrow with complex objects;
-
 function GreetingService(name) {
     this.name = name;
     this.sayHi = function sayHi() {
